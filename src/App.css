@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: var(--bg);
+  --color-card: var(--card);
+  --color-card2: var(--card2);
+  --color-text-main: var(--text);
+  --color-text-muted: var(--text-muted);
+  --color-text-on-color: var(--text-on-color);
+  --color-primary: var(--primary);
+  --color-primary-fg: var(--primary-fg);
+  --color-secondary: var(--secondary);
+  --color-secondary-fg: var(--secondary-fg);
+  --color-accent: var(--accent);
+  --color-accent-fg: var(--accent-fg);
+  --color-border-main: var(--border);
+  --color-ring: var(--ring);
+  --color-good: var(--good);
+  --color-good-fg: var(--good-fg);
+  --color-warn: var(--warn);
+  --color-warn-fg: var(--warn-fg);
+  --color-bad: var(--bad);
+  --color-bad-fg: var(--bad-fg);
+}
+
+@layer base {
+  :root {
+    --bg: #f3f6f0;
+    --card: #ecefe9;
+    --card2: #ecefe9;
+    --text: #000000;
+    --text-muted: #020202;
+    --text-on-color: #cadeca;
+    --primary: #343834;
+    --primary-fg: #cadeca;
+    --secondary: #373538;
+    --secondary-fg: #e0d1e8;
+    --accent: #383538;
+    --accent-fg: #e4d0e4;
+    --border: #dfe2dc;
+    --ring: #515551;
+    --good: #363633;
+    --good-fg: #dad9bf;
+    --warn: #645f5c;
+    --warn-fg: #f2d8c9;
+    --bad: #3a3533;
+    --bad-fg: #edd1c5;
+    color-scheme: light;
+  }
+
+  .dark {
+    --bg: #000000;
+    --card: #0a0a0a;
+    --card2: #121212;
+    --text: #f3f6f0;
+    --text-muted: #bdc0ba;
+    --text-on-color: #052019;
+    --primary: #858b89;
+    --primary-fg: #052019;
+    --secondary: #79787e;
+    --secondary-fg: #0a0616;
+    --accent: #9c989c;
+    --accent-fg: #231523;
+    --border: #1f1f1f;
+    --ring: #686d6c;
+    --good: #7e7d77;
+    --good-fg: #151201;
+    --warn: #aaa4a0;
+    --warn-fg: #27160a;
+    --bad: #837d7b;
+    --bad-fg: #23100a;
+    color-scheme: dark;
+  }
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  overflow: hidden;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}

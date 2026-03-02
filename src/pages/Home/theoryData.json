@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "title": "Stack vs Heap",
+        "description": "El Stack almacena variables locales y parámetros de funciones de forma rápida y LIFO. El Heap se usa para memoria dinámica con un coste mayor de administración.",
+        "color": "purple"
+    },
+    {
+        "id": "2",
+        "title": "Fragmentación",
+        "description": "La memoria puede fragmentarse internamente (bloques más grandes de lo necesario) o externamente (espacios libres pero no contiguos), causando ineficiencias.",
+        "color": "emerald"
+    },
+    {
+        "id": "3",
+        "title": "Ownership en Rust",
+        "description": "El modelo de propiedad garantiza la seguridad de memoria sin un garbage collector en tiempo de ejecución, eliminando data races y dangling pointers.",
+        "color": "orange"
+    },
+    {
+        "id": "4",
+        "title": "Buddy Allocator",
+        "description": "Un algoritmo que divide la memoria en mitades (buddies) hasta encontrar un bloque de tamaño adecuado, facilitando mucho la fusión de bloques libres.",
+        "color": "blue"
+    },
+    {
+        "id": "5",
+        "title": "Cache Locality",
+        "description": "Agrupar datos que se accederán de forma conjunta en memoria acelera enormemente la velocidad gracias a la jerarquía de caché de la CPU (L1, L2, L3).",
+        "color": "rose"
+    }
+]

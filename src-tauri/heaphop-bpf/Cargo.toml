@@ -1,0 +1,18 @@
+[package]
+name = "heaphop-bpf"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aya-ebpf = "0.1"
+aya-log-ebpf = "0.1"
+heaphop-common = { path = "../heaphop-common" }
+
+[build-dependencies]
+aya-build = "0.1"
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
