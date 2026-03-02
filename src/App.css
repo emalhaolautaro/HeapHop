@@ -21,6 +21,22 @@
   --color-warn-fg: var(--warn-fg);
   --color-bad: var(--bad);
   --color-bad-fg: var(--bad-fg);
+
+  /* Override standard Tailwind colors dynamically for high contrast */
+  --color-emerald-400: var(--good-dynamic);
+  --color-emerald-500: var(--good-dynamic);
+  --color-amber-300: var(--warn-dynamic);
+  --color-amber-400: var(--warn-dynamic);
+  --color-amber-500: var(--warn-dynamic);
+  --color-amber-600: var(--warn-dynamic);
+  --color-red-400: var(--bad-dynamic);
+  --color-red-500: var(--bad-dynamic);
+  --color-pink-500: var(--bad-dynamic);
+  --color-blue-400: var(--primary-dynamic);
+  --color-blue-500: var(--primary-dynamic);
+  --color-indigo-500: var(--primary-dynamic);
+  --color-violet-400: var(--secondary-dynamic);
+  --color-violet-500: var(--secondary-dynamic);
 }
 
 @layer base {
@@ -45,6 +61,12 @@
     --warn-fg: #ebd2c3;
     --bad: #585458;
     --bad-fg: #e4d0e4;
+
+    --good-dynamic: var(--good);
+    --warn-dynamic: var(--warn);
+    --bad-dynamic: var(--bad);
+    --primary-dynamic: var(--primary);
+    --secondary-dynamic: var(--secondary);
     color-scheme: light;
   }
 
@@ -69,6 +91,12 @@
     --warn-fg: #e8d4c0;
     --bad: #5b565b;
     --bad-fg: #e4d0e4;
+
+    --good-dynamic: var(--good-fg);
+    --warn-dynamic: var(--warn-fg);
+    --bad-dynamic: var(--bad-fg);
+    --primary-dynamic: var(--primary-fg);
+    --secondary-dynamic: var(--secondary-fg);
     color-scheme: dark;
   }
 }

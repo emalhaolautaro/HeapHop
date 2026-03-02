@@ -26,7 +26,7 @@ export const BattleArena: React.FC<BattleArenaProps> = ({ selectedCount }) => {
                     <span className="text-amber-500 text-sm font-bold">VS</span>
                     <span className="px-3 py-1 bg-card2 rounded-md border border-ring">Run 2</span>
                 </div>
-                <button className="mt-2 px-6 py-2.5 bg-amber-500 text-black font-bold rounded-xl hover:bg-amber-400 transition-colors">
+                <button className="mt-2 px-6 py-2.5 bg-amber-500 text-bg font-bold rounded-xl hover:bg-amber-400 transition-colors">
                     Start Comparison
                 </button>
             </div>

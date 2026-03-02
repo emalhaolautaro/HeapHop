@@ -1,0 +1,22 @@
+:root {
+  --bg: #a1a39e;
+  --card: #979a95;
+  --card2: #92948f;
+  --text: #2a2c28;
+  --text-muted: #424440;
+  --text-on-color: #c2dceb;
+  --primary: #4f5457;
+  --primary-fg: #c2dceb;
+  --secondary: #515459;
+  --secondary-fg: #cbd8ef;
+  --accent: #515757;
+  --accent-fg: #bedfdf;
+  --border: #82847f;
+  --ring: #595e61;
+  --good: #535957;
+  --good-fg: #c1dfd6;
+  --warn: #5b5653;
+  --warn-fg: #ebd2c3;
+  --bad: #585458;
+  --bad-fg: #e4d0e4;
+}

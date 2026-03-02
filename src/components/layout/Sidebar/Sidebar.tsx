@@ -32,7 +32,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ currentPage, onNavigate }) => 
             <div className={`flex flex-col gap-2 flex-1 w-full ${isExpanded ? '' : 'items-center'}`}>
                 <button
                     onClick={() => onNavigate('home')}
-                    className={`flex items-center gap-3 p-2.5 rounded-xl transition-all w-full ${isExpanded ? 'px-4' : 'justify-center'} ${currentPage === 'home' ? 'bg-primary shadow-sm border ' : 'hover: text-text-muted '}`}
+                    className={`flex items-center gap-3 p-2.5 rounded-xl transition-all w-full ${isExpanded ? 'px-4' : 'justify-center'} ${currentPage === 'home' ? 'bg-primary shadow-sm border ' : 'hover:text-text-muted hover:bg-card2 '}`}
                 >
                     <HouseLine weight={currentPage === 'home' ? 'fill' : 'regular'} size={22} className="shrink-0" />
                     {isExpanded && <span className="font-medium text-sm">Home</span>}
@@ -40,7 +40,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ currentPage, onNavigate }) => 
 
                 <button
                     onClick={() => onNavigate('selection')}
-                    className={`flex items-center gap-3 p-2.5 rounded-xl transition-all w-full ${isExpanded ? 'px-4' : 'justify-center'} ${currentPage === 'selection' ? 'bg-primary shadow-sm border ' : 'hover: text-text-muted '}`}
+                    className={`flex items-center gap-3 p-2.5 rounded-xl transition-all w-full ${isExpanded ? 'px-4' : 'justify-center'} ${currentPage === 'selection' ? 'bg-primary shadow-sm border ' : 'hover:text-text-muted hover:bg-card2 '}`}
                 >
                     <Flask weight={currentPage === 'selection' ? 'fill' : 'regular'} size={22} className="shrink-0" />
                     {isExpanded && <span className="font-medium text-sm">Lab Setup</span>}
@@ -48,7 +48,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ currentPage, onNavigate }) => 
 
                 <button
                     onClick={() => onNavigate('dashboard')}
-                    className={`flex items-center gap-3 p-2.5 rounded-xl transition-all w-full ${isExpanded ? 'px-4' : 'justify-center'} ${currentPage === 'dashboard' ? 'bg-primary shadow-sm border ' : 'hover: text-text-muted '}`}
+                    className={`flex items-center gap-3 p-2.5 rounded-xl transition-all w-full ${isExpanded ? 'px-4' : 'justify-center'} ${currentPage === 'dashboard' ? 'bg-primary shadow-sm border ' : 'hover:text-text-muted hover:bg-card2 '}`}
                 >
                     <SquaresFour weight={currentPage === 'dashboard' ? 'fill' : 'regular'} size={22} className="shrink-0" />
                     {isExpanded && <span className="font-medium text-sm">Dashboard</span>}
@@ -56,7 +56,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ currentPage, onNavigate }) => 
 
                 <button
                     onClick={() => onNavigate('history')}
-                    className={`flex items-center gap-3 p-2.5 rounded-xl transition-all w-full ${isExpanded ? 'px-4' : 'justify-center'} ${currentPage === 'history' ? 'bg-primary shadow-sm border ' : 'hover: text-text-muted '}`}
+                    className={`flex items-center gap-3 p-2.5 rounded-xl transition-all w-full ${isExpanded ? 'px-4' : 'justify-center'} ${currentPage === 'history' ? 'bg-primary shadow-sm border ' : 'hover:text-text-muted hover:bg-card2 '}`}
                 >
                     <ClockCounterClockwise weight={currentPage === 'history' ? 'fill' : 'regular'} size={22} className="shrink-0" />
                     {isExpanded && <span className="font-medium text-sm">Archive</span>}
@@ -65,7 +65,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ currentPage, onNavigate }) => 
 
             <button
                 onClick={() => onNavigate('settings')}
-                className={`flex items-center gap-3 p-2.5 rounded-xl transition-all w-full ${isExpanded ? 'px-4' : 'justify-center'} ${currentPage === 'settings' ? 'bg-primary shadow-sm border ' : 'hover: text-text-muted '}`}
+                className={`flex items-center gap-3 p-2.5 rounded-xl transition-all w-full ${isExpanded ? 'px-4' : 'justify-center'} ${currentPage === 'settings' ? 'bg-primary shadow-sm border ' : 'hover:text-text-muted hover:bg-card2 '}`}
             >
                 <Gear weight={currentPage === 'settings' ? 'fill' : 'regular'} size={22} className="shrink-0" />
                 {isExpanded && <span className="font-medium text-sm">Settings</span>}
