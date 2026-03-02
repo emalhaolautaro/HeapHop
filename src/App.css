@@ -25,50 +25,50 @@
 
 @layer base {
   :root {
-    --bg: #f3f6f0;
-    --card: #ecefe9;
-    --card2: #ecefe9;
-    --text: #000000;
-    --text-muted: #020202;
-    --text-on-color: #cadeca;
-    --primary: #343834;
-    --primary-fg: #cadeca;
-    --secondary: #373538;
-    --secondary-fg: #e0d1e8;
-    --accent: #383538;
-    --accent-fg: #e4d0e4;
-    --border: #dfe2dc;
-    --ring: #515551;
-    --good: #363633;
-    --good-fg: #dad9bf;
-    --warn: #645f5c;
-    --warn-fg: #f2d8c9;
-    --bad: #3a3533;
-    --bad-fg: #edd1c5;
+    --bg: #a1a39e;
+    --card: #979a95;
+    --card2: #92948f;
+    --text: #2a2c28;
+    --text-muted: #424440;
+    --text-on-color: #c2dceb;
+    --primary: #4f5457;
+    --primary-fg: #c2dceb;
+    --secondary: #515459;
+    --secondary-fg: #cbd8ef;
+    --accent: #515757;
+    --accent-fg: #bedfdf;
+    --border: #82847f;
+    --ring: #595e61;
+    --good: #535957;
+    --good-fg: #c1dfd6;
+    --warn: #5b5653;
+    --warn-fg: #ebd2c3;
+    --bad: #585458;
+    --bad-fg: #e4d0e4;
     color-scheme: light;
   }
 
   .dark {
-    --bg: #000000;
-    --card: #0a0a0a;
-    --card2: #121212;
-    --text: #f3f6f0;
-    --text-muted: #bdc0ba;
-    --text-on-color: #052019;
-    --primary: #858b89;
-    --primary-fg: #052019;
-    --secondary: #79787e;
-    --secondary-fg: #0a0616;
-    --accent: #9c989c;
-    --accent-fg: #231523;
-    --border: #1f1f1f;
-    --ring: #686d6c;
-    --good: #7e7d77;
-    --good-fg: #151201;
-    --warn: #aaa4a0;
-    --warn-fg: #27160a;
-    --bad: #837d7b;
-    --bad-fg: #23100a;
+    --bg: #0b0d09;
+    --card: #11140f;
+    --card2: #0c0d0a;
+    --text: #838681;
+    --text-muted: #696b66;
+    --text-on-color: #c1ddea;
+    --primary: #585e61;
+    --primary-fg: #c1ddea;
+    --secondary: #585b5f;
+    --secondary-fg: #c9d9ef;
+    --accent: #565c5c;
+    --accent-fg: #bedfdf;
+    --border: #181a16;
+    --ring: #4c5254;
+    --good: #555b59;
+    --good-fg: #c1dfd6;
+    --warn: #5b5753;
+    --warn-fg: #e8d4c0;
+    --bad: #5b565b;
+    --bad-fg: #e4d0e4;
     color-scheme: dark;
   }
 }
